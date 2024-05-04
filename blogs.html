@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <!-- DAISY UI LINK CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- TAILWIND LINK CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FONT AWSOME LINK CDN -->
+    <script
+      src="https://kit.fontawesome.com/a59ccc9d18.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- =========================================
+                      NAV BAR SECTION by @abdullah
+            ========================================== -->
+      <nav class="bg-indigo-500">
+        <div class="mx-auto max-w-[1240px]">
+          <div class="navbar w-full">
+            <div class="navbar-start">
+              <!-- FOR SMALL DEVICE -->
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-white rounded-box w-52"
+                >
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="./blogs.html">Blogs</a></li>
+                </ul>
+              </div>
+              <!-- FOR MEDIUM TO HIGHER DEVICES -->
+              <a class="btn btn-ghost text-3xl text-white uppercase"
+                >Lorem, ipsum.</a
+              >
+            </div>
+            <div class="navbar-end hidden lg:flex">
+              <ul class="menu menu-horizontal text-white text-lg px-1">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="bg-indigo-400 p-28 text-center text-black mx-auto mt-16">
+        <h1 class="text-3xl">hello world</h1>
+        <p class="text-lg">its Blog page</p>
+      </div>
+  </body>
+</html>
